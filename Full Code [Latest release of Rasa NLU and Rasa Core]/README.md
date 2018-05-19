@@ -5,5 +5,7 @@ there were quite a few changes which were introduced to Rasa NLU and Rasa Core. 
 releases of Rasa NLU and Rasa Core. I will do my best to keep it up-to-date, but if you encounter any issues with using the code, please raise an issue or drop me a message :)
 
 Latest code update: 19/05/2018
+
 Latest compatible Rasa NLU version: 0.12.3
+
 Latest compatible Rasa Core version: 0.9.0a3 (master)

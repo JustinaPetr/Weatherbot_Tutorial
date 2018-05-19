@@ -5,5 +5,7 @@ Since this tutorial was recorded back in February 2018, it is using slightly old
 this directory - it contains Weatherbot code and models compatible with the latest releases of Rasa NLU and Rasa Core (keep in mind that in some places the code will slightly differ from the one shown in the video).
 
 Library versions used in tutorial:
+
 Rasa NLU version: 0.11.4
+
 Rasa Core version: 0.8.2
