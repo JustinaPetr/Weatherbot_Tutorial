@@ -1,5 +1,10 @@
 {
   "action_fingerprints": {
+    "null": {
+      "slots": [
+        "location"
+      ]
+    },
     "action_listen": {
       "slots": [
         "location"
@@ -9,14 +14,9 @@
       "slots": [
         "location"
       ]
-    },
-    "null": {
-      "slots": [
-        "location"
-      ]
     }
   },
-  "rasa_core": "0.9.0a6",
+  "rasa_core": "0.9.3",
   "max_histories": [
     5,
     5
