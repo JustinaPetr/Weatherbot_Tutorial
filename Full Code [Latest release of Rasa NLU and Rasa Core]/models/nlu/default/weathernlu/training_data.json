@@ -1,228 +1,228 @@
 {
   "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
     "common_examples": [
       {
-        "intent": "greet",
-        "text": "Hello"
+        "text": "Hello",
+        "intent": "greet"
       },
       {
-        "intent": "goodbye",
-        "text": "goodbye"
+        "text": "goodbye",
+        "intent": "goodbye"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 22,
-            "end": 28,
             "value": "Berlin",
-            "entity": "location"
+            "entity": "location",
+            "end": 28
           }
         ],
-        "text": "What's the weather in Berlin at the moment?"
+        "text": "What's the weather in Berlin at the moment?",
+        "intent": "inform"
       },
       {
-        "intent": "greet",
-        "text": "hey"
+        "text": "hey",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "hello"
+        "text": "hello",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "hi"
+        "text": "hi",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "heya"
+        "text": "heya",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "howdy"
+        "text": "howdy",
+        "intent": "greet"
       },
       {
-        "intent": "greet",
-        "text": "hey there"
+        "text": "hey there",
+        "intent": "greet"
       },
       {
-        "intent": "goodbye",
-        "text": "bye"
+        "text": "bye",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "goodbye"
+        "text": "goodbye",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "bye bye"
+        "text": "bye bye",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "see ya"
+        "text": "see ya",
+        "intent": "goodbye"
       },
       {
-        "intent": "goodbye",
-        "text": "see you later"
+        "text": "see you later",
+        "intent": "goodbye"
       },
       {
-        "intent": "inform",
-        "text": "What's the weather today?"
+        "text": "What's the weather today?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 22,
-            "end": 28,
             "value": "London",
-            "entity": "location"
+            "entity": "location",
+            "end": 28
           }
         ],
-        "text": "What's the weather in London today?"
+        "text": "What's the weather in London today?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 30,
-            "end": 35,
             "value": "Paris",
-            "entity": "location"
+            "entity": "location",
+            "end": 35
           }
         ],
-        "text": "Show me what's the weather in Paris"
+        "text": "Show me what's the weather in Paris",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 32,
-            "end": 39,
             "value": "Vilnius",
-            "entity": "location"
+            "entity": "location",
+            "end": 39
           }
         ],
-        "text": "I wonder what is the weather in Vilnius right now?"
+        "text": "I wonder what is the weather in Vilnius right now?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
-        "text": "what is the weather?"
+        "text": "what is the weather?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
-        "text": "Tell me the weather"
+        "text": "Tell me the weather",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 23,
-            "end": 32,
             "value": "Barcelona",
-            "entity": "location"
+            "entity": "location",
+            "end": 32
           }
         ],
-        "text": "Is the weather nice in Barcelona today?"
+        "text": "Is the weather nice in Barcelona today?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 14,
-            "end": 20,
             "value": "London",
-            "entity": "location"
+            "entity": "location",
+            "end": 20
           }
         ],
-        "text": "I am going to London today and I wonder what is the weather out there?"
+        "text": "I am going to London today and I wonder what is the weather out there?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 25,
-            "end": 34,
             "value": "Amsterdam",
-            "entity": "location"
+            "entity": "location",
+            "end": 34
           }
         ],
-        "text": "I am planning my trip to Amsterdam. What is the weather out there?"
+        "text": "I am planning my trip to Amsterdam. What is the weather out there?",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 23,
-            "end": 29,
             "value": "Dublin",
-            "entity": "location"
+            "entity": "location",
+            "end": 29
           }
         ],
-        "text": "Show me the weather in Dublin, please"
+        "text": "Show me the weather in Dublin, please",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 3,
-            "end": 9,
             "value": "London",
-            "entity": "location"
+            "entity": "location",
+            "end": 9
           }
         ],
-        "text": "in London"
+        "text": "in London",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 0,
-            "end": 9,
             "value": "Lithuania",
-            "entity": "location"
+            "entity": "location",
+            "end": 9
           }
         ],
-        "text": "Lithuania"
+        "text": "Lithuania",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 14,
-            "end": 19,
             "value": "Italy",
-            "entity": "location"
+            "entity": "location",
+            "end": 19
           }
         ],
-        "text": "Oh, sorry, in Italy"
+        "text": "Oh, sorry, in Italy",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 23,
-            "end": 30,
             "value": "Vilnius",
-            "entity": "location"
+            "entity": "location",
+            "end": 30
           }
         ],
-        "text": "Tell me the weather in Vilnius"
+        "text": "Tell me the weather in Vilnius",
+        "intent": "inform"
       },
       {
-        "intent": "inform",
         "entities": [
           {
             "start": 25,
-            "end": 30,
             "value": "Italy",
-            "entity": "location"
+            "entity": "location",
+            "end": 30
           }
         ],
-        "text": "The weather condition in Italy"
+        "text": "The weather condition in Italy",
+        "intent": "inform"
       }
-    ],
-    "regex_features": [],
-    "entity_synonyms": []
+    ]
   }
 }
