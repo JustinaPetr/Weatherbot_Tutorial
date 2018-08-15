@@ -23,7 +23,7 @@
           }
         ]
       },
-	  {
+      {
         "text": "hey",
         "intent": "greet",
         "entities": []
@@ -234,6 +234,18 @@
             "end": 30,
             "value": "Italy",
             "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "Where is my tea",
+        "intent": "DetectItem",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "Tea",
+            "entity": "Item"
           }
         ]
       }

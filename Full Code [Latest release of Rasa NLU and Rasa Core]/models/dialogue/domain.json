@@ -1,12 +1,13 @@
 {
   "states": [
-    "intent_greet",
     "intent_goodbye",
+    "intent_greet",
     "intent_inform",
     "entity_location",
     "slot_location_0",
     "prev_action_listen",
     "prev_action_restart",
+    "prev_action_default_fallback",
     "prev_utter_greet",
     "prev_utter_goodbye",
     "prev_utter_ask_location",

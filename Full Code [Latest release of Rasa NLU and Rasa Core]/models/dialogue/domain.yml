@@ -1,3 +1,5 @@
+%YAML 1.1
+---
 action_factory: null
 action_names:
 - utter_greet
@@ -14,9 +16,12 @@ config:
 entities:
 - location
 intents:
-- greet
-- goodbye
-- inform
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- inform:
+    use_entities: true
 slots:
   location:
     initial_value: null
@@ -29,4 +34,3 @@ templates:
   - text: Bye bye :(
   utter_greet:
   - text: Hello! How can I help?
-topics: []

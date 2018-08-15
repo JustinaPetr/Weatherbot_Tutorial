@@ -26,33 +26,30 @@
                 [
                     "low",
                     "title",
-                    "upper",
-                    "pos",
-                    "pos2"
+                    "upper"
                 ],
                 [
                     "bias",
                     "low",
-                    "word3",
-                    "word2",
+                    "prefix5",
+                    "prefix2",
+                    "suffix5",
+                    "suffix3",
+                    "suffix2",
                     "upper",
                     "title",
                     "digit",
-                    "pos",
-                    "pos2",
                     "pattern"
                 ],
                 [
                     "low",
                     "title",
-                    "upper",
-                    "pos",
-                    "pos2"
+                    "upper"
                 ]
             ],
             "max_iterations": 50,
-            "L1_c": 1,
-            "L2_c": 0.001,
+            "L1_c": 0.1,
+            "L2_c": 0.1,
             "name": "ner_crf",
             "classifier_file": "crf_model.pkl",
             "class": "rasa_nlu.extractors.crf_entity_extractor.CRFEntityExtractor"
@@ -81,6 +78,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20180710-171602",
-    "rasa_nlu_version": "0.12.3"
+    "trained_at": "20180815-102454",
+    "rasa_nlu_version": "0.13.1"
 }
