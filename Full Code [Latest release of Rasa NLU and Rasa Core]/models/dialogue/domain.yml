@@ -1,16 +1,10 @@
 %YAML 1.1
 ---
-action_factory: null
-action_names:
-- utter_greet
-- utter_goodbye
-- utter_ask_location
-- action_weather
 actions:
 - utter_greet
 - utter_goodbye
 - utter_ask_location
-- actions.ActionWeather
+- action_weather
 config:
   store_entities_as_slots: true
 entities:

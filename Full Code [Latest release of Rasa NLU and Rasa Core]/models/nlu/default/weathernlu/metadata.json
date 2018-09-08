@@ -72,12 +72,13 @@
                 "linear"
             ],
             "max_cross_validation_folds": 5,
+            "scoring_function": "f1_weighted",
             "name": "intent_classifier_sklearn",
             "classifier_file": "intent_classifier_sklearn.pkl",
             "class": "rasa_nlu.classifiers.sklearn_intent_classifier.SklearnIntentClassifier"
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20180815-102454",
-    "rasa_nlu_version": "0.13.1"
+    "trained_at": "20180908-193557",
+    "rasa_nlu_version": "0.13.2"
 }
