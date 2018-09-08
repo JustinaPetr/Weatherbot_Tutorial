@@ -45,7 +45,7 @@ The process of running the online session is very similar to training the Rasa C
 5. Provide the url: https://your_ngrok_url/webhooks/slack/webhook to 'Event Subscriptions' page of the slack configuration.  
 6. Talk to you bot.  
 
-I will do my best to keep it up-to-date, but if you encounter any issues with using the code, please raise an issue or drop me a message :)
+I will do my best to keep this repo up-to-date, but if you encounter any issues with using the code, please raise an issue or drop me a message :)
 
 Latest code update: 08/09/2018
 
