@@ -29,7 +29,7 @@ def run_weather_online(interpreter,
                        batch_size=50,
                        epochs=200,
                        max_training_samples=300)				   
-    online.serve_agent(agent)
+    online.run_online_learning(agent)
     return agent
 
 
