@@ -18,7 +18,7 @@ Training of the NLU model didn't change much from the way it was shown in the vi
 The biggest change in how Rasa Core model works is that custom action 'action_weather' now needs to run on a separate server. That server has to be configured in a 'endpoints.yml' file.  This is how to train and run the dialogue management model:  
 1. Start the custom action server by running:  
 
-``` python -m rasa_core_sdk.endpoint --actions actions ```  
+``` python -m rasa_core_sdk.endpoint --actions action ```  
 
 2. Open a new terminal and train the Rasa Core model by running:  
 
@@ -31,7 +31,7 @@ The biggest change in how Rasa Core model works is that custom action 'action_we
 The process of running the online session is very similar to training the Rasa Core model:
 1. Make sure the custom actions server is running:  
 
-``` python -m rasa_core_sdk.endpoint --actions actions ```  
+``` python -m rasa_core_sdk.endpoint --actions action ```  
 
 2. Start the online training session by running:  
 
