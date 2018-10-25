@@ -47,7 +47,7 @@ The process of running the online session is very similar to training the Rasa C
 
 I will do my best to keep this repo up-to-date, but if you encounter any issues with using the code, please raise an issue or drop me a message :)
 
-Latest code update: 08/09/2018
+Latest code update: 25/10/2018
 
 Latest compatible Rasa NLU version: 0.13.7
 
