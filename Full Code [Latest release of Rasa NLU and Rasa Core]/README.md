@@ -10,7 +10,9 @@ The code of this repo differs quite significantly from the original video. This 
 ### Resolving dependencies installation issues
 
 git clone https://github.com/RasaHQ/rasa_nlu.git
+
 cd rasa_nlu
+
 pip install -r alt_requirements/requirements_full.txt
 
 ### Training the NLU model
