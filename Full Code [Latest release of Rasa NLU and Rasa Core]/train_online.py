@@ -24,19 +24,9 @@ def run_weather_online(interpreter,
                   interpreter=interpreter,
 				  action_endpoint=action_endpoint)
     				  
-<<<<<<< HEAD
     data = agent.load_data(training_data_file)			   
     agent.train(data)
-    agent = Agent.load('./models/dialogue', interpreter=interpreter, action_endpoint=action_endpoint)	
     interactive.run_interactive_learning(agent, training_data_file)
-=======
-    data = agent.load_data(training_data_file)
-    agent.train(data,
-                       batch_size=50,
-                       epochs=200,
-                       max_training_samples=300)				   
-    online.run_online_learning(agent)
->>>>>>> a4c437a80d8975c2d42d24ed4d0f29c18f41c6fd
     return agent
 
 
