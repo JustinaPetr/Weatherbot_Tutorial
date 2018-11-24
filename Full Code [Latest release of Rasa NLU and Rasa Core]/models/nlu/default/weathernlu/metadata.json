@@ -68,6 +68,9 @@
                 20,
                 100
             ],
+            "gamma": [
+                0.1
+            ],
             "kernels": [
                 "linear"
             ],
@@ -79,6 +82,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20180908-193557",
-    "rasa_nlu_version": "0.13.2"
+    "trained_at": "20181124-212718",
+    "rasa_nlu_version": "0.13.8"
 }

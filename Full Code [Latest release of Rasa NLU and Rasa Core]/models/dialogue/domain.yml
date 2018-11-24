@@ -9,6 +9,7 @@ config:
   store_entities_as_slots: true
 entities:
 - location
+forms: []
 intents:
 - greet:
     use_entities: true
@@ -18,6 +19,7 @@ intents:
     use_entities: true
 slots:
   location:
+    auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
 templates:

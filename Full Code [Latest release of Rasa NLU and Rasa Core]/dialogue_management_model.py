@@ -11,6 +11,7 @@ from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.utils import EndpointConfig
 from rasa_core.run import serve_application
+from rasa_core import config
 
 logger = logging.getLogger(__name__)
 
@@ -18,13 +19,11 @@ def train_dialogue(domain_file = 'weather_domain.yml',
 					model_path = './models/dialogue',
 					training_data_file = './data/stories.md'):
 					
-	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy()])
+	agent = Agent(domain_file, policies = [MemoizationPolicy(), KerasPolicy(max_history=3, epochs=200, batch_size=50)])
 	data = agent.load_data(training_data_file)	
-	agent.train(
-				data,
-				epochs = 300,
-				batch_size = 50,
-				validation_split = 0.2)
+	
+
+	agent.train(data)
 				
 	agent.persist(model_path)
 	return agent

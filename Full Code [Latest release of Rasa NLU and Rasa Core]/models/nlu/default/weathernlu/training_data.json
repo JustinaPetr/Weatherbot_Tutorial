@@ -223,6 +223,7 @@
       }
     ],
     "regex_features": [],
+    "lookup_tables": [],
     "entity_synonyms": []
   }
 }
