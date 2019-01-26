@@ -49,7 +49,7 @@ I will do my best to keep this repo up-to-date, but if you encounter any issues 
 
 Latest code update: 25/01/2018
 
-Latest compatible Rasa NLU version: 0.14.1
+Latest compatible Rasa NLU version: 0.14.1  
 Latest compatible Rasa Core version: 0.13.0
 
 
