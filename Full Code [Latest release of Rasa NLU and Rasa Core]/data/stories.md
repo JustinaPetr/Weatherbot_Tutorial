@@ -13,7 +13,7 @@
 ## Generated Story -3351152636827275381
 * greet
     - utter_greet
-* inform[location=London]
+* inform{"location": "London"}
     - slot{"location": "London"}
     - action_weather
 * goodbye
@@ -24,7 +24,7 @@
     - utter_greet
 * inform
     - utter_ask_location
-* inform[location=London]
+* inform{"location":"London"}
     - slot{"location": "London"}
     - action_weather
 * goodbye
@@ -47,7 +47,7 @@
    - utter_greet
 * inform
    - utter_ask_location
-* inform[location=London]
+* inform{"location":"London"}
    - slot{"location": "London"}
    - action_weather
 * goodbye
@@ -55,7 +55,7 @@
 ## story_002
 * greet
    - utter_greet
-* inform[location=Paris]
+* inform{"location":"Paris"}
    - slot{"location": "Paris"}
    - action_weather
 * goodbye
@@ -65,7 +65,7 @@
    - utter_greet
 * inform
    - utter_ask_location
-* inform[location=Vilnius]
+* inform{"location":"Vilnius"}
    - slot{"location": "Vilnius"}
    - action_weather
 * goodbye
@@ -73,7 +73,7 @@
 ## story_004
 * greet
    - utter_greet
-* inform[location=Italy]
+* inform{"location":"Italy"}
    - slot{"location": "Italy"}
    - action_weather
 * goodbye
@@ -83,7 +83,7 @@
    - utter_greet
 * inform
    - utter_ask_location
-* inform[location=Lithuania]
+* inform{"location":"Lithuania"}
    - slot{"location": "Lithuania"}
    - action_weather
 * goodbye

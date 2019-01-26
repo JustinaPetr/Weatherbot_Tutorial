@@ -26,16 +26,16 @@ The biggest change in how Rasa Core model works is that custom action 'action_we
  
 3. Talk to the chatbot once it's loaded.  
 
-### Starting the online training session:
+### Starting the interactive training session:
 
-The process of running the online session is very similar to training the Rasa Core model:
+The process of running the interactive session is very similar to training the Rasa Core model:
 1. Make sure the custom actions server is running:  
 
 ``` python -m rasa_core_sdk.endpoint --actions actions ```  
 
-2. Start the online training session by running:  
+2. Start the interactive training session by running:  
 
-``` python train_online.py ```  
+``` python train_interactive.py ```  
 
 ### Connecting a chatbot to Slack:
 1. Configure the slack app as shown in the video  
@@ -47,9 +47,10 @@ The process of running the online session is very similar to training the Rasa C
 
 I will do my best to keep this repo up-to-date, but if you encounter any issues with using the code, please raise an issue or drop me a message :)
 
-Latest code update: 24/11/2018
+Latest code update: 25/01/2018
 
-Latest compatible Rasa NLU version: 0.13.8
+Latest compatible Rasa NLU version: 0.14.1
+Latest compatible Rasa Core version: 0.13.0
 
 
 
