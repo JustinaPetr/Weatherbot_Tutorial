@@ -47,10 +47,10 @@ The process of running the interactive session is very similar to training the R
 
 I will do my best to keep this repo up-to-date, but if you encounter any issues with using the code, please raise an issue or drop me a message :)
 
-Latest code update: 25/01/2018
+Latest code update: 01/03/2019
 
-Latest compatible Rasa NLU version: 0.14.1
-Latest compatible Rasa Core version: 0.13.0
+Latest compatible Rasa NLU version: 0.14.4
+Latest compatible Rasa Core version: 0.13.2
 
 
 
