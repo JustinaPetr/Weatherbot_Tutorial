@@ -7,6 +7,14 @@ there were quite a few changes which were introduced to Rasa NLU and Rasa Core. 
 
 The code of this repo differs quite significantly from the original video. This is how to use it:
 
+### Resolving dependencies installation issues
+
+git clone https://github.com/RasaHQ/rasa_nlu.git
+
+cd rasa_nlu
+
+pip install -r alt_requirements/requirements_full.txt
+
 ### Training the NLU model
 
 Training of the NLU model didn't change much from the way it was shown in the video. To train and test the model run:  
