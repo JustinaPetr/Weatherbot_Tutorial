@@ -9,7 +9,7 @@ from rasa_core.agent import Agent
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter
-from rasa_core.train import interactive
+from rasa_core.training import interactive
 from rasa_core.utils import EndpointConfig
 
 logger = logging.getLogger(__name__)
