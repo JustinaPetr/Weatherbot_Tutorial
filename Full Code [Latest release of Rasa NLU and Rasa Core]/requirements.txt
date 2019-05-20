@@ -43,7 +43,7 @@ jsonschema==2.6.0
 packaging==18.0
 gevent==1.4.0
 pytz==2018.9
-rasa_core_sdk~=0.12.1
+rasa_core_sdk~=0.12.2
 pymongo==3.7.2
 python-dateutil==2.7.5
 rocketchat_API==0.6.25
@@ -55,9 +55,9 @@ python-socketio==3.1.1
 pydot==1.4.1
 keras-applications==1.0.6
 keras-preprocessing==1.0.5
-protobuf==3.6.0
+protobuf>=3.6.1
 
 ###additional
 pypandoc
-rasa_core
+rasa_core==0.13.7
 git+https://github.com/apixu/apixu-python.git

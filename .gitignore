@@ -1,0 +1,20 @@
+**/__pycache__/**
+**/dialogue/**
+**/apixu/**
+**/logs/**
+
+**/.idea/**
+
+test*
+
+**/envrionment.env
+
+# ignore keys, tokens files
+credentials.yml
+export_rasa_config.sh
+
+# local backup of PIP requirements
+requirements-rasa-weatherbot.txt
+
+# local scripts
+run-all-services.sh
