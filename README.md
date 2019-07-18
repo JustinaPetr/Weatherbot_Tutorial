@@ -6,4 +6,4 @@ The directory contains three sub-directories:
 
 - 'Video Files' contains the 'getting started' files which you can use if you code as you watch.
 - 'Full Code' contains the full completed code of the tutorial which you can use if you want to test the models, make changes, break or improve things :)
-- 'Full Code [Latest release of Rasa NLU and Rasa Core]' contains the full code of Weatherbot tutorial which is compatible with the latest releases of Rasa NLU and Rasa Core.
+- 'Full_Code_Latest' contains the full code of Weatherbot tutorial which is compatible with the latest releases of Rasa NLU and Rasa Core.
