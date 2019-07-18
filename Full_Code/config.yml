@@ -1,0 +1,8 @@
+language: "en"
+pipeline: "pretrained_embeddings_spacy"
+
+
+policies:
+  - name: MemoizationPolicy
+  - name: KerasPolicy
+    epochs: 200
