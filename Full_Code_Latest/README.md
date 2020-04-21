@@ -1,7 +1,13 @@
-# Weatherbot Tutorial (using the latest release of Rasa NLU and Rasa Core)
+# Weatherbot Tutorial (using the latest release of Rasa)
 
-Rasa NLU and Rasa Core devs are doing an amazing job improving both of these libraries which results in code changes for one method or another. In fact, since I recorded a Wetherbot tutorial,
-there were quite a few changes which were introduced to Rasa NLU and Rasa Core. On 21st of May 2019, Rasa 1.0 was released with a lot of changes under the hood. This repo contains the updated weatherbot code compatible with the latest release of Rasa.
+**Disclaimer: This project is not an official Rasa tutorial. 
+While it's a good source to learn about Rasa, I would recommend
+also checking out official Rasa education sources like 
+[Rasa Masterclass](https://www.youtube.com/playlist?list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc).**
+
+
+Rasa devs are doing an amazing job improving this library which results in code changes for one method or another. In fact, since I recorded a Wetherbot tutorial,
+there were quite a few changes which were introduced to Rasa (former Rasa NLU and Rasa Core). This repo contains the updated weatherbot code compatible with the latest release of Rasa.
 
 ## How to use this repo
 
@@ -55,9 +61,9 @@ To run your assistant in a interactive learning session, run:
 
 I will do my best to keep this repo up-to-date, but if you encounter any issues with using the code, please raise an issue or drop me a message :)
 
-Latest code update: 17/07/2019
+Latest code update: 31/04/2020
 
-Latest compatible Rasa NLU version: 1.0.9
+Latest compatible Rasa version: 1.9.6
 
 
 

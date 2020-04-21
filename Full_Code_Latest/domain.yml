@@ -12,7 +12,7 @@ intents:
 entities:
  - location
 
-templates:
+responses:
   utter_greet:
     - text: 'Hello! How can I help?'
   utter_goodbye:
@@ -23,7 +23,4 @@ templates:
 
 
 actions:
- - utter_greet
- - utter_goodbye
- - utter_ask_location
  - action_weather
