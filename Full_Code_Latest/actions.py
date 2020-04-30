@@ -11,7 +11,7 @@ class ActionWeather(Action):
 		client = ApixuClient(api_key)
 		
 		loc = tracker.get_slot('location')
-		current = client.getcurrent(q=loc)
+		current = client.current(q=loc)
 		
 		country = current['location']['country']
 		city = current['location']['name']
